@@ -1,5 +1,9 @@
 .main-video {
     height: 1208px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-video h1 {
     font-size: 3.8rem;
@@ -30,6 +34,7 @@
 }
 .section-techService h2 {
     font-size: 2.5rem;
+    margin-bottom: 72px;
 }
 .section-techService h4 {
     font-size: 1.8rem;
@@ -45,4 +50,9 @@
     width: 48%;
     bottom: 0;
     right: 0;
+}
+
+.section-techService .row > div {
+    padding-left: 1.13rem;
+    padding-right: 1.13rem;
 }
