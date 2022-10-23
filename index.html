@@ -44,7 +44,13 @@
   
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31">
+              <path data-name="사각형 414" transform="translate(4 6)" style="fill:#fff" d="M0 0h21v2H0z"/>
+              <path data-name="사각형 415" transform="translate(4 13)" style="fill:#fff" d="M0 0h21v2H0z"/>
+              <path data-name="사각형 416" transform="translate(4 20)" style="fill:#fff" d="M0 0h21v2H0z"/>
+            </svg>
+          </span>
         </button>
   
         <!-- Collapse -->
@@ -57,10 +63,27 @@
                 HOME
               </a>
             </li>
-            <li class="nav-item ">
-              <a href="#" class="nav-link">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ABOUT
               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarLandings">
+                <a class="dropdown-item " href="app.html">
+                  미션
+                </a>
+                <a class="dropdown-item " href="company.html">
+                  핵심가치
+                </a>
+                <a class="dropdown-item " href="fullpage.html">
+                  연혁
+                </a>
+                <a class="dropdown-item " href="product.html">
+                  브랜드스토리
+                </a>
+                <a class="dropdown-item " href="real-estate.html">
+                  캐릭터
+                </a>
+              </div>
             </li>
             <li class="nav-item ">
               <a href="#" class="nav-link">
@@ -157,7 +180,7 @@
         <div class="row">
           <!-- Item -->
           <div class="col-md-6">
-            <a href="app.html" class="card border-0 mb-3 mb-md-0">
+            <a href="app.html" class="card border-0 mb-md-0">
               <div class="card-img-top yapTech">
                 <div class="card-body">
                   <h4 class="card-title">
@@ -174,15 +197,17 @@
           </div>
 
           <div class="col-md-6">
-            <a href="app.html" class="card border-0 mb-3 mb-md-0">
+            <a href="app.html" class="card border-0 mb-md-0">
               <div class="card-img-top yapTech">
                 <div class="card-body">
                   <h4 class="card-title">
-                    Yap Tech
+                    Yap Universe
                   </h4>
                   <p class="card-text text-muted">
-                    Yap의 스마트 인프라와<br>
-                    혁신적인 IoT 기술의 만남
+                    얍모바일의
+                    플랫폼으로 누리는
+                    보다 편리한
+                    라이프 스타일
                   </p>
                   <img src="./assets/img/img-home-univers@2x.png" alt="img-home-univers">
                 </div>
@@ -296,7 +321,7 @@
       <!-- Content -->
       <div class="container inner">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md">
 
             <!-- Heading -->
             <h2 class="">
