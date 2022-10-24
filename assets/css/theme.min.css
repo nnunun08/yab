@@ -3831,10 +3831,10 @@ input[type="button"].btn-block {
         position: relative;
         background-color: transparent !important;
     }
-    .nav-item.dropdown a.nav-link::after{
+    .nav-item a.nav-link::after{
         content: '';
         position: absolute;
-        bottom: 0.7rem;
+        bottom: 1.5rem;
         left: 0;
         right: 0;
         display: block;
@@ -3846,7 +3846,7 @@ input[type="button"].btn-block {
         opacity: 0;
         transition: all 0.2s ease-in-out;
     }
-    .nav-item.dropdown:hover a.nav-link::after {
+    .nav-item:hover a.nav-link::after {
         width: calc(100% - 1.563rem - 1.563rem);
         opacity: 1;
     }
@@ -5075,7 +5075,8 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    color: var(--primary);
+    /* color: var(--primary); */
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -5128,7 +5129,8 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: var(--primary);
+    /* color: var(--primary); */
+    font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {

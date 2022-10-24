@@ -14,6 +14,14 @@
 .section h2 {
     font-size: 2.5rem;
 }
+.navbar-brand .yap_logo {
+    width: 60px;
+    height: 60px;
+    background: url(../ico/yap_logo_w.png) center/cover no-repeat;
+}
+.navbar-light .navbar-brand .yap_logo {
+    background-image: url(../ico/yap_logo_y.png)
+}
 
 /* MAIN-VIDEO */
 .main-video {
@@ -43,6 +51,10 @@
 .main-video .container .btn-outline-primary {
     border-color: white;
 }
+.main-video .container .btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
 
 /* SECTION-TECHSERVICE */
 .section-techService {
@@ -54,12 +66,17 @@
 }
 .section-techService h4 {
     font-size: 1.75rem;
+    font-weight: bold;
     line-height: 1;
+    letter-spacing: -0.7px;
     margin-bottom: 1rem;
 }
 .section-techService p {
     font-size: 1.25rem;
+    font-weight: 500;
     line-height: 1.4;
+    color: #000;
+    letter-spacing: -0.5px;
 }
 .section-techService .yapTech .card-body {
     height: 310px;
@@ -126,6 +143,7 @@
     margin: 0;
     font-size: 1.375rem;
     line-height: 1.36;
+    letter-spacing: -0.55px;
     overflow:hidden;
 	text-overflow:ellipsis;
 	-webkit-line-clamp: 2;	
@@ -156,7 +174,7 @@
 
 /* SECTION-ABOUT */
 .section-about {
-    background: red url(../img/10.jpg) center/cover no-repeat;
+    background: red url(../img/bg_career@2x.jpg) center/cover no-repeat;
     padding-top: 17.5rem;
     padding-bottom: 15rem;
     color: #222222;
@@ -187,6 +205,10 @@
 }
 .section-about .btn img {
     margin-left: 0.263rem;
+}
+.section-about .btn:hover {
+    color: white;
+    background-color: var(--primary);
 }
 
 /* SECTION-FOOTER */
@@ -283,11 +305,11 @@
 }
 .section-coreValue .item {
     height: 23.563rem;
-    background: url(../img/13.jpg) center/cover no-repeat;
     padding: 2.5rem 1.7rem;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
     position: relative;
     z-index: 0;
+    cursor: pointer;
 }
 .section-coreValue .item::before {
     content: '';
@@ -301,6 +323,20 @@
     transition: all .25s linear;
     z-index: -1;
 }
+.section-coreValue .row > div:nth-child(1) .item {background: url(../img/bg_coreValue_01@2x.jpg) center/cover no-repeat;}
+.section-coreValue .row > div:nth-child(2) .item {background: url(../img/bg_coreValue_01@2x.jpg) center/cover no-repeat;}
+.section-coreValue .row > div:nth-child(3) .item {background: url(../img/bg_coreValue_05@2x.jpg) center/cover no-repeat;}
+.section-coreValue .row > div:nth-child(4) .item {background: url(../img/bg_coreValue_04@2x.jpg) center/cover no-repeat;}
+.section-coreValue .row > div:nth-child(5) .item {background: url(../img/bg_coreValue_05@2x.jpg) center/cover no-repeat;}
+
+
+.section-coreValue .row > div:nth-child(1) .item::before {background-color: red;}
+.section-coreValue .row > div:nth-child(2) .item::before {background-color: #fff;}
+.section-coreValue .row > div:nth-child(3) .item::before {background-color: #f4f4f4;}
+.section-coreValue .row > div:nth-child(4) .item::before {background-color: orange;}
+.section-coreValue .row > div:nth-child(5) .item::before {background-color: green;}
+
+
 .section-coreValue .item span {
     font-size: 0.875rem;
     font-weight: bold;
@@ -335,8 +371,8 @@
 }
 .section-coreValue .item .action-btn {
     position: absolute;
-    bottom: 1.438rem;
-    left: 1.438rem;
+    right: 1.34rem;
+    bottom: 1.34rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,6 +411,42 @@
 .section-coreValue .item.on .action-btn {
     transform: rotate(45deg);
     /* animation: CareersPage_rotate-30__bKLfZ .3s cubic-bezier(.25,.46,.45,.94) both; */
+}
+
+
+.section-make {
+    /* background: 
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url(../img/bg_makeHistory@2x.jpg) center/cover no-repeat; */
+    text-align: center;
+    color: white;
+    padding-top: 22.15rem;
+    padding-bottom: 25.156rem;
+}
+.section-make .bg-overlay:before {
+    background-color: #000;
+    opacity: 0.4;
+}
+.section-make h1 {
+    font-size: 3.75rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.56rem;
+}
+.section-make p {
+    font-family: NotoSansCJKKR;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    margin: 0;
 }
 
 @-webkit-keyframes CareersPage_slide-in-fwd-top__BsiBA {
