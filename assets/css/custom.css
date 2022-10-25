@@ -354,7 +354,7 @@ body {
     color: white;
     margin: 0;
     font-size: 2.813rem;
-    font-weight: bold;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.44;
@@ -829,6 +829,7 @@ body {
 }
 .section-supporter .textWrap .badgeWrap {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.75rem;
     margin-bottom: 1.5rem;
 }
@@ -1065,6 +1066,8 @@ body {
         line-height: 1.27;
         letter-spacing: -0.75px;
         word-break: keep-all;
+        max-width: 330px;
+        margin: 0 auto;
     }
 
     .section-coreValue {
