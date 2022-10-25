@@ -114,6 +114,7 @@ body {
     height: 60px;
     background: url(../ico/yap_logo_w.png) center/cover no-repeat;
 }
+.navbar:hover .navbar-brand .yap_logo,
 .navbar-light .navbar-brand .yap_logo {
     background-image: url(../ico/yap_logo_y.png)
 }
