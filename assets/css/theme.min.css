@@ -3847,8 +3847,14 @@ input[type="button"].btn-block {
         width: calc(100% - 1.563rem - 1.563rem);
         opacity: 1;
     }
-    .nav-item.dropdown .dropdown-menu a:nth-child(1) {
+    .nav-item.dropdown:nth-child(2) .dropdown-menu a:nth-child(1) {
         margin-left: calc(50vw - 171px);
+    }
+    .nav-item.dropdown:last-child .dropdown-menu {
+        justify-content: flex-end;
+    }
+    .nav-item.dropdown:last-child .dropdown-menu a:last-child {
+        margin-right: calc(50vw - 336px);
     }
     .navbar-nav .nav-link {
         transition-property: all;
@@ -4943,7 +4949,9 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1199.98px) {
-
+    .navbar-brand .yap_logo {
+        background: url(../ico/yap_logo_w.png) center/cover no-repeat !important;
+    }
     .navbar-expand-xl>.container,
     .navbar-expand-xl>.container-fluid,
     .navbar-expand-xl>.container-xl {
