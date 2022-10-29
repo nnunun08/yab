@@ -1,0 +1,102 @@
+@import url(./font.css);
+@import url(./index.css);
+@import url(./about.css);
+@import url(./careers.css);
+@import url(./universe.css);
+@import url(./tech.css);
+
+html {
+    color: #222;
+}
+h2 {
+    font-size: 2.813rem;
+    font-weight: bold;
+    letter-spacing: 0.45px;
+    color: #000;
+    text-align: center;
+}
+h3 {
+    font-size: 2.813rem;
+    font-weight: bold;
+    letter-spacing: 0.45px;
+    margin-bottom: 1.562rem;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.563rem;
+    font-weight: normal;
+    line-height: 1.28;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.d-pc {
+    display: block !important;
+}
+
+.d-mobile {
+    display: none !important;
+}
+
+.color {
+    color: var(--primary) !important;
+}
+
+.clear-both::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+
+.inner {
+    max-width: 1148px !important;
+}
+
+.btn-fill {
+    background-color: #222222;
+    color: #fff;
+}
+
+.btn-fill:hover {
+    background-color: var(--primary) !important;
+    color: #fff !important;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+}
+
+.navbar-brand .yap_logo {
+    width: 60px;
+    height: 60px;
+    background: url(../ico/yap_logo_w.png) center/cover no-repeat;
+}
+
+.navbar:hover .navbar-brand .yap_logo,
+.navbar-light .navbar-brand .yap_logo {
+    background-image: url(../ico/yap_logo_y.png)
+}
+
+/* SECTION-FOOTER */
+.section-footer {
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.section-footer .row {
+    justify-content: space-between;
+}
+
+.page-visual p {
+    font-size: 1.875rem;
+    font-weight: normal;
+    letter-spacing: -0.75px;
+    text-align: center;
+    color: #fff;
+}
+
