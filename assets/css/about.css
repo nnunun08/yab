@@ -26,12 +26,13 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.313rem;
+  font-size: 1.25rem;
   font-weight: bold;
   line-height: 1;
   height: 4.75rem;
   box-sizing: border-box;
   min-width: 16.563rem;
+  text-transform: none;
 }
 
 .section-about .btn img {
@@ -156,11 +157,11 @@
 }
 
 .section-coreValue .row > div:nth-child(2) .item {
-  background: url(../img/bg_coreValue_01@2x.jpg) center/cover no-repeat;
+  background: url(../img/bg_coreValue_02@2x.jpg) center/cover no-repeat;
 }
 
 .section-coreValue .row > div:nth-child(3) .item {
-  background: url(../img/bg_coreValue_05@2x.jpg) center/cover no-repeat;
+  background: url(../img/bg_coreValue_03@2x.jpg) center/cover no-repeat;
 }
 
 .section-coreValue .row > div:nth-child(4) .item {
@@ -171,24 +172,8 @@
   background: url(../img/bg_coreValue_05@2x.jpg) center/cover no-repeat;
 }
 
-.section-coreValue .row > div:nth-child(1) .item::before {
-  background-color: red;
-}
-
-.section-coreValue .row > div:nth-child(2) .item::before {
-  background-color: #fff;
-}
-
-.section-coreValue .row > div:nth-child(3) .item::before {
+.section-coreValue .row > div .item::before {
   background-color: #f4f4f4;
-}
-
-.section-coreValue .row > div:nth-child(4) .item::before {
-  background-color: orange;
-}
-
-.section-coreValue .row > div:nth-child(5) .item::before {
-  background-color: green;
 }
 
 .section-coreValue .item span {
@@ -224,6 +209,7 @@
   text-align: left;
   color: #222;
   opacity: 0;
+  max-width: 18rem;
 }
 
 .section-coreValue .item .action-btn {
@@ -368,6 +354,7 @@
 .section-history h1 {
   margin-bottom: 8rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .section-history .hisWrap {
@@ -453,7 +440,7 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.76;
-  letter-spacing: 0.21px;
+  letter-spacing: -0.53px;
   text-align: left;
   color: #222;
 }
@@ -466,6 +453,7 @@
   padding-top: 16rem;
   padding-bottom: 16rem;
   background-color: #f8f8f8;
+  background: #f8f8f8 url(../img/about_map@2x.png) left top/contain no-repeat;
 }
 
 .section-map .container {
@@ -491,7 +479,7 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.56;
-  letter-spacing: 0.18px;
+  letter-spacing: -0.45px;
   text-align: left;
   color: #222;
   margin: 0;

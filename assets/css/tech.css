@@ -68,6 +68,10 @@
   align-items: center;
   justify-content: center;
 }
+.section-techCon .conWrap .btn.ac i::before {
+  transform: rotate(225deg);
+  margin-top: 4px;
+}
 .section-techCon .conWrap .btn i {
   width: 1.5rem;
   height: 1.5rem;

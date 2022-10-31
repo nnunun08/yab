@@ -44,6 +44,9 @@
 .section-techService {
     padding-top: 9.5rem;
     padding-bottom: 11.25rem;
+    a.card .card-img-top:before {
+        box-shadow: 0 1rem 2rem -1rem rgb(0 0 0 / 30%);
+    }
 }
 
 .section-techService h2 {
@@ -130,8 +133,9 @@
 }
 
 .section-news .container .row-full .card-img-top .card-body h4 {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.5);
     margin: 0;
+    font-weight: 500;
 }
 
 .section-news .container .row-full .card-img-top .card-body p {
@@ -151,6 +155,7 @@
     align-items: flex-end;
     justify-content: space-between;
     flex-wrap: nowrap;
+    font-weight: 300;
 }
 
 .section-news .container .more-news {
@@ -169,4 +174,12 @@
 .section-news .container .more-news a img {
     margin-left: 7px;
     margin-top: -6px;
+}
+.section-about {
+    h2 {
+        text-align: left;
+        span {
+            font-family: 'Noto Sans KR';
+        }
+    }
 }
