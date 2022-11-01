@@ -45,7 +45,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
+  padding: 26rem 0;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
 }
 
 .section-gsap01 h1 {

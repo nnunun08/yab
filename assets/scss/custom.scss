@@ -31,6 +31,9 @@ h5 {
     letter-spacing: 0.25px;
     text-align: center;
 }
+d-pcf {
+    display: flex !important;
+}
 
 .d-pc {
     display: block !important;
@@ -80,10 +83,44 @@ h5 {
 .navbar-light .navbar-brand .yap_logo {
     background-image: url(../ico/yap_logo_y.png)
 }
+
 .page-visual {
+    height: 75.75rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: -0.65px;
+        min-width: 256px;
+        height: 5.2rem;
+    }
+    .container .btn-outline-primary {
+        border-color: white;
+        &:hover {
+            background-color: var(--primary);
+            border-color: var(--primary);
+        }
+    }
+    
     h1 {
         text-shadow: 3px 3px 50px rgba(0, 0, 0, 0.27);
         font-weight: bold;
+        font-size: 3.75rem;
+        line-height: 1.33;
+        letter-spacing: -1.5px;
+        margin-bottom: 50px !important;
+        word-break: keep-all;
+        span {
+            color: var(--primary);
+        }
     }
     p {
         font-size: 1.875rem;
@@ -93,6 +130,8 @@ h5 {
         color: #fff;
     }
 }
+
+
 
 
 /* SECTION-FOOTER */

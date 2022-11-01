@@ -63,7 +63,9 @@
         letter-spacing: 0.15px;
     }
     
-
+    .d-pcf {
+        display: none !important;
+    }
     .d-pc {
         display: none !important;
     }
@@ -179,7 +181,12 @@
         left: 0;
         right: 0;
     }
-
+    .section-news .container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
+    }
     .section-news .container .more-news {
         margin-bottom: 4.375rem;
         text-align: center;
@@ -202,42 +209,40 @@
         margin-bottom: 2.2rem;
     }
 
+
+
     .section-news .container .row-full {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         margin-left: -23rem;
         margin-right: -23rem;
-        margin-left: -60vw;
-        margin-right: -60vw;
+        // margin-left: -60vw;
+        // margin-right: -60vw;
     }
 
-    .section-news .container .row-full>div {
-        padding: 0 0.625rem;
-    }
-
-    .section-news .container .row-full .card-img-top {
+    .section-news .container .card-img-top {
         height: 21rem;
     }
 
-    .section-news .container .row-full .img-fluid {
+    .section-news .container .img-fluid {
         height: 100%;
         object-fit: cover;
     }
 
-    .section-news .container .row-full .card-img-top .card-body {
+    .section-news .container .card-img-top .card-body {
         padding: 0.939rem;
     }
 
-    .section-news .container .row-full .card-img-top .card-body {
+    .section-news .container .card-img-top .card-body {
         font-size: 0.938rem;
     }
 
-    .section-news .container .row-full .card-img-top .card-body h4 {
+    .section-news .container .card-img-top .card-body h4 {
         font-size: 0.688rem;
     }
 
-    .section-news .container .row-full .card-img-top .card-body p {
+    .section-news .container .card-img-top .card-body p {
         font-size: 0.938rem;
     }
 
@@ -281,7 +286,9 @@
 
     .section-gsap01,
     .section-gsap02 {
-        height: 80vh;
+        // height: 80vh;
+        height: auto;
+        padding: 10.688rem 0;
     }
 
     .section-gsap01 h1 {
@@ -545,6 +552,7 @@
 
     .section-careers {
         position: relative;
+        background: #f4f4f4;
     }
 
     .section-careers h1 {
@@ -571,7 +579,7 @@
         left: 50%;
         position: absolute;
         width: 120%;
-        max-width: 640px;
+        max-width: 480px;
         transform: translateX(-50%);
         margin-left: -13%;
     }
@@ -679,8 +687,11 @@
     .section-benefit .item li {
         font-size: 0.813rem;
     }
-
+    .section-together h5 {
+        margin-bottom: 2.53rem;
+    }
     .section-together .row {
+        
         img {
             left: 0;
             right: 0;
@@ -693,6 +704,26 @@
             height: auto;
             div.conWrap {
                 padding: 1.5rem;
+                padding-bottom: 3.75rem;
+                h4 {
+                    font-size: 1.563rem;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.25px;
+                    margin-bottom: 1.25rem;
+                    max-width: 210px;
+                }
+                p {
+                    font-size: 0.938rem;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.33;
+                    letter-spacing: -0.38px;
+                    margin-bottom: 0;
+                }
             }
         }
     } 
@@ -866,9 +897,6 @@
                 margin-top: 3.125rem;
                 .lineWrap {
                     top: 0;
-                    .left {
-                        // border-width: ;
-                    }
                 }
                 .time {
                     order: 0;
