@@ -169,6 +169,9 @@
         padding-top: 1.875rem;
         padding-bottom: 7.125rem;
         position: relative;
+        .card {
+            padding-top: 75.18%;
+        }
     }
 
     .section-news .container {
@@ -186,6 +189,9 @@
         margin-right: 0;
         width: 100%;
         max-width: 100%;
+        .card {
+            padding-top: 336px;
+        }
     }
     .section-news .container .more-news {
         margin-bottom: 4.375rem;
@@ -221,9 +227,6 @@
         // margin-right: -60vw;
     }
 
-    .section-news .container .card-img-top {
-        height: 21rem;
-    }
 
     .section-news .container .img-fluid {
         height: 100%;
@@ -454,6 +457,8 @@
 
     .section-map {
         padding-bottom: 3.125rem;
+        padding: 70px 0;
+        background: #f8f8f8 url(../img/about_map@2x.png) left 33% center/150% no-repeat;
     }
 
     .section-map h1 {
@@ -467,6 +472,8 @@
         font-size: 0.813rem;
         line-height: 1.54;
         letter-spacing: -0.33px;
+        width: 220px;
+        word-break: keep-all;
     }
 
     .section-map .container {
@@ -474,7 +481,7 @@
     }
 
     .section-map .textWrap {
-        margin-left: 1.9rem;
+        margin-left: 30px;
     }
 
     .section-supporter {
@@ -1028,6 +1035,9 @@
             }
             .btn {
                 margin-top: 2.5rem;
+                &:hover {
+                    background-color: #000 !important;
+                }
             }
         }
         .flexWrap:last-child {
@@ -1055,6 +1065,16 @@
             }
         }
         
+    }
+
+    .section-pr .container h1 {
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        margin-bottom: 10px !important;
+    }
+    .section-pr .container p {
+        font-size: 15px;
     }
     .section-prList {
         padding: 4.375rem 0;
@@ -1131,4 +1151,6 @@
         font-size: 1.563rem;
         letter-spacing: -0.63px;
     }
+
+
 }

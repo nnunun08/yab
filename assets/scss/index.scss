@@ -1,4 +1,8 @@
-
+@media screen and (min-width:767.99px) {
+    .page-visual.home {
+        height: 1080px;
+    }    
+}
 
 /* SECTION-TECHSERVICE */
 .section-techService {
@@ -63,6 +67,28 @@
         -webkit-transform: none;
         transform: none;
     }
+    .card {
+        height: 0;
+        padding-top: 61.18%;
+        position: relative;
+        overflow: hidden;
+        .card-img-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .container .img-fluid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 .section-news .container {
@@ -70,6 +96,11 @@
     /* overflow: hidden; */
     .card {
         border: 0;
+    }
+    .flickity-viewport {
+        // transform: scale(0.8);
+        overflow: inherit;
+        // margin-top: -47px;
     }
 }
 
@@ -84,9 +115,6 @@
     width: 100%;
 }
 
-.section-news .container .card-img-top {
-    position: relative;
-}
 
 .section-news .container .card-img-top .card-body {
     position: absolute;
@@ -105,6 +133,7 @@
 }
 
 .section-news .container .card-img-top .card-body h4 {
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
     margin: 0;
     font-weight: 500;
@@ -113,6 +142,7 @@
 .section-news .container .card-img-top .card-body p {
     margin: 0;
     font-size: 1.375rem;
+    font-weight: bold;
     line-height: 1.36;
     letter-spacing: -0.55px;
     overflow: hidden;
@@ -123,6 +153,8 @@
 }
 
 .section-news .container .card-img-top .card-body .row {
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
     margin: 0;
     align-items: flex-end;
     justify-content: space-between;
@@ -154,9 +186,12 @@
 
 
 
-.section-about {
+.section.section-about {
     h2 {
         text-align: left;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 1.22;
         span {
             font-family: 'Noto Sans KR';
         }

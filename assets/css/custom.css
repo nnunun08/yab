@@ -85,7 +85,7 @@ d-pcf {
 }
 
 .page-visual {
-  height: 75.75rem;
+  height: 930px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -113,11 +113,11 @@ d-pcf {
 .page-visual h1 {
   text-shadow: 3px 3px 50px rgba(0, 0, 0, 0.27);
   font-weight: bold;
-  font-size: 3.75rem;
-  line-height: 1.33;
   letter-spacing: -1.5px;
-  margin-bottom: 50px !important;
+  margin-bottom: 52px !important;
   word-break: keep-all;
+  font-size: 52px;
+  line-height: 1.35;
 }
 .page-visual h1 span {
   color: var(--primary);
@@ -249,7 +249,7 @@ d-pcf {
 .ev-select .nav-item.show.dropdown .dropdown-menu .dropdown-item:last-child {
   border-radius: 0 0 10px 10px;
 }
-.ev-select .nav-item.show.dropdown .dropdown-menu .dropdown-item[href] {
+.ev-select .nav-item.show.dropdown .dropdown-menu .dropdown-item:hover {
   color: #fff;
 }
 .ev-select .nav-item.show.dropdown .dropdown-menu .dropdown-item + .dropdown-item::before {

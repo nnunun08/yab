@@ -1,3 +1,8 @@
+@media screen and (min-width: 767.99px) {
+  .page-visual.home {
+    height: 1080px;
+  }
+}
 /* SECTION-TECHSERVICE */
 .section-techService {
   padding-top: 9.5rem;
@@ -62,6 +67,28 @@
   -webkit-transform: none;
   transform: none;
 }
+.section-news .card {
+  height: 0;
+  padding-top: 61.18%;
+  position: relative;
+  overflow: hidden;
+}
+.section-news .card .card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-news .card .container .img-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .section-news .container {
   max-width: 100%;
@@ -69,6 +96,9 @@
 }
 .section-news .container .card {
   border: 0;
+}
+.section-news .container .flickity-viewport {
+  overflow: inherit;
 }
 
 .section-news .container {
@@ -80,10 +110,6 @@
 
 .section-news .container .img-fluid {
   width: 100%;
-}
-
-.section-news .container .card-img-top {
-  position: relative;
 }
 
 .section-news .container .card-img-top .card-body {
@@ -103,6 +129,7 @@
 }
 
 .section-news .container .card-img-top .card-body h4 {
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
   font-weight: 500;
@@ -111,6 +138,7 @@
 .section-news .container .card-img-top .card-body p {
   margin: 0;
   font-size: 1.375rem;
+  font-weight: bold;
   line-height: 1.36;
   letter-spacing: -0.55px;
   overflow: hidden;
@@ -121,6 +149,8 @@
 }
 
 .section-news .container .card-img-top .card-body .row {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
   margin: 0;
   align-items: flex-end;
   justify-content: space-between;
@@ -149,10 +179,13 @@
   margin-top: -6px;
 }
 
-.section-about h2 {
+.section.section-about h2 {
   text-align: left;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.22;
 }
-.section-about h2 span {
+.section.section-about h2 span {
   font-family: "Noto Sans KR";
 }
 

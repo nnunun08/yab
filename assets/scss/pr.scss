@@ -1,7 +1,17 @@
+
 /* PR SECTION*/
 .section-pr {
+    background: url(../img/pr-main@2x.jpg) center/cover no-repeat;
+}
+.section-pr .container {
     h1 {
         color: white;
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 25px;
+        line-height: 1.28;
     }
 }
 

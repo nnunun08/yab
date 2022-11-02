@@ -233,5 +233,9 @@
 .section-careers {
   background: url(../img/Career_main_2.png) center/cover no-repeat;
 }
+.section-careers .container h1 {
+  font-size: 55px;
+  line-height: 1.27;
+}
 
 /*# sourceMappingURL=careers.css.map */
