@@ -101,4 +101,14 @@
     }
   });
 
+
+  const subMenu = document.querySelectorAll('.dropdown-item');
+  const trigger = document.querySelector('.navbar-toggler');
+  subMenu[0].addEventListener('click', ()=>{
+    console.log('cl')
+  })
+
+
+  }
+
 })();
