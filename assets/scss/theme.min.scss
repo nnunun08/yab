@@ -3757,7 +3757,7 @@ input[type="button"].btn-block {
 .dropdown-item {
     display: block;
     width: 100%;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 20px;
     clear: both;
     font-weight: 400;
     color: #212529;
@@ -3815,7 +3815,7 @@ input[type="button"].btn-block {
         align-items: center;
     }
     .nav-item.dropdown .dropdown-menu a {
-        font-size: 0.938rem;
+        font-size: 15px;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
@@ -13369,8 +13369,8 @@ a.card:hover .card-img-top:before,
 
 @media (min-width: 1200px) {
     .dropdown-item {
-        padding-top: 0.75rem;
-        padding-bottom: 0.75rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 

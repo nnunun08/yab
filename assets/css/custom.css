@@ -122,6 +122,9 @@ d-pcf {
 .page-visual h1 span {
   color: var(--primary);
 }
+.page-visual.page-visual2 h1 {
+  margin-bottom: 30px !important;
+}
 .page-visual p {
   font-size: 1.875rem;
   font-weight: normal;
@@ -259,7 +262,7 @@ d-pcf {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 80%;
+  width: calc(100% - 34px);
   height: 1px;
   background-color: #727272;
 }

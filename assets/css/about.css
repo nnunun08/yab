@@ -1,6 +1,7 @@
 /* SECTION-ABOUT */
 .section-about {
-  background: red url(../img/bg_career@2x.jpg) center/cover no-repeat;
+  background: url(../img/bg_career@2x.jpg) center/cover no-repeat;
+  background: url(../img/career-playground@2x.jpg) center/cover no-repeat;
   padding-top: 17.5rem;
   padding-bottom: 15rem;
   color: #222222;
@@ -178,6 +179,11 @@
 
 .section-coreValue .row > div .item::before {
   background-color: #f4f4f4;
+}
+
+.section-coreValue .row > div:nth-child(2) .item::before,
+.section-coreValue .row > div:nth-child(4) .item::before {
+  background-color: white;
 }
 
 .section-coreValue .item span {

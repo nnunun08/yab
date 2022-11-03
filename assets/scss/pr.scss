@@ -119,17 +119,25 @@
             height: 23rem;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
+            padding-top: 74px;
+            img {
+                max-width: 128px;
+                margin-bottom: 12px;
+            }
         }
 
         .pagination {
+            margin-top: 43px;
+            margin-bottom: 0;
             justify-content: center;
             .page-link {
+                height: 100%;
                 display: inline-flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 1rem;
+                font-size: 1rem !important;
                 font-weight: normal;
                 font-stretch: normal;
                 font-style: normal;
@@ -139,22 +147,30 @@
                 color: #9b9b9b;
                 line-height: 1;
                 border: 0;
-                height: 1.875rem;
-                width: 2.3rem;
                 box-sizing: border-box;
+                padding: 18px;
             }
             .page-item.ac {
                 .page-link {
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
                     color: #030303;
                     position:relative;
+                    font-size: 16px !important;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: -0.4px;
                     &::before {
                         content: '';
                         position: absolute;
-                        bottom: 0;
+                        bottom: 12px;
                         left:50%;
                         transform: translateX(-50%);
                         width: 1.125rem;
-                        height: 2px;
+                        height: 3px;
                         background-color: #ff862e;
                     }
                 }
@@ -164,10 +180,10 @@
                 text-indent: -9999px;
             }
             .page-item:first-child .page-link {
-                background: url(../img/paging-arrow-l.svg) center top 10px no-repeat;
+                background: url(../img/paging-arrow-l.svg) center no-repeat;
             }
             .page-item:last-child .page-link {
-                background: url(../img/paging-arrow-r.svg) center top 10px no-repeat;
+                background: url(../img/paging-arrow-r.svg) center no-repeat;
             }
         }
     }

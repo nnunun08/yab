@@ -1,7 +1,6 @@
 /* SECTION-UNIVERSE*/
 .section-universe {
-    background: url(../img/bg_universeVisual@2x.jpg) 25% 65%/246% no-repeat;
-
+    background: url(../img/bg_universeVisual@2x.jpg) center/cover no-repeat;
     h1 {
         color: white;
         margin-bottom: 1.875rem !important;
@@ -225,6 +224,10 @@
             }
             .textWrap {
                 margin-top: 40px;
+                h4 {
+                    max-width: 250px;
+                    word-break: keep-all;
+                }
             }
         }
         .item04 {

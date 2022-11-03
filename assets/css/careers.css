@@ -139,7 +139,7 @@
   flex: 1 0 50%;
 }
 .section-together .row .container div.conWrap {
-  padding: 6.313rem 0 0 7.688rem;
+  padding: 6.313rem 1.5rem 0 7.688rem;
   box-sizing: border-box;
   text-align: left;
 }
@@ -164,7 +164,7 @@
   flex-direction: row-reverse;
 }
 .section-together .row:last-child .container div.conWrap {
-  padding: 6.313rem 7.688rem 0 0;
+  padding: 6.313rem 7.688rem 0 1.5rem;
   box-sizing: border-box;
   text-align: left;
 }

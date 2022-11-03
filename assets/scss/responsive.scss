@@ -7,7 +7,7 @@
         display: block !important;
     }
     .section-universe {
-        background: url(../img/bg_universeVisual@2x.jpg) 25% 76%/cover no-repeat;
+        background: url(../img/bg_universeVisual-mo@2x.jpg) 25% 76%/cover no-repeat;
     }
     .section-footer {
         padding: 2.125rem 0;
@@ -35,6 +35,9 @@
     }
     .navbar {
         background:rgb(34 34 34 / 15%) !important;
+    }
+    .navbar .navbar-nav .nav-link {
+        color: #222222;
     }
 
     .section-footer p,
@@ -259,8 +262,12 @@
         text-align: center;
         min-height: fit-content;
     }
-
-    .section-about h2 {
+    #hr.section-about {
+        padding-top: 45px;
+        padding-bottom: 261px;
+        background: url(../img/career-playground-mo@2x.jpg) center bottom/cover no-repeat;
+    }
+    .section.section-about h2 {
         font-size: 1.563rem;
         font-weight: 600;
         margin-bottom: 0.625rem;
@@ -710,7 +717,10 @@
         overflow-x: hidden;
     }
     .section-together h5 {
+        max-width: 460px;
+        margin: 0 auto;
         margin-bottom: 2.53rem;
+        word-break: keep-all;
     }
     .section-together .row {
         
@@ -796,8 +806,8 @@
         } 
     }
     .section-universe {
-        h1 {
-            margin-bottom: 0.625rem !important;
+        &.page-visual2 h1 {
+            margin-bottom: 10px !important;
         }
         p {
             width: 15.4rem;
@@ -892,7 +902,7 @@
                     ul {
                         margin: 0 auto;
                         margin-top: 1.875rem;
-                        max-width: 15.5rem;
+                        max-width: 19.5rem;
                         li p {
                             text-align: center;
                         }
@@ -967,6 +977,13 @@
                         letter-spacing: -0.28px;
                         margin-top: 0.938rem;
                     }
+                }
+            }
+            .item03 .textWrap {
+                margin-top: 16px;
+                padding-top: 25px;
+                h4 {
+                    max-width: 100%;
                 }
             }
             .item05 {
@@ -1165,6 +1182,12 @@
         border-radius: 32px;
         font-size: 1.563rem;
         letter-spacing: -0.63px;
+        justify-content: center;
+        padding: 20px;
+        img {
+            max-width: 74px;
+            margin-bottom: 0;
+        }
     }
 
 
