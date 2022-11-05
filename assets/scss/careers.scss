@@ -97,7 +97,7 @@
     line-height: 1.17;
     letter-spacing: -0.45px;
     color: #444;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -106,8 +106,8 @@
     position: absolute;
     left: -18px;
     top: 8px;
-    width: 0.438rem;
-    height: 0.438rem;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background-color: #aaa;
 }
@@ -115,6 +115,7 @@
 .section-together {
     text-align: center;
     background-color: #f9f9f9;
+    padding-top: 105px;
     padding-bottom: 0;
     h5 {
         margin-bottom: 7.5rem;
@@ -163,7 +164,7 @@
         .container{
             flex-direction: row-reverse;
             div.conWrap {
-                padding: 6.313rem 7.688rem 0 1.5rem; 
+                padding: 6.313rem 24px 0 24px; 
                 box-sizing: border-box;
                 text-align: left;
             }

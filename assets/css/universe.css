@@ -8,7 +8,7 @@
 }
 
 .section-lifeYap {
-  padding: 14.3rem 0 10.625rem;
+  padding: 120px 0 10.625rem;
   overflow-x: hidden;
 }
 .section-lifeYap h5 {
@@ -32,7 +32,7 @@
   z-index: -1;
 }
 .section-lifeYap .conWrap .item .lineWrap .left {
-  flex: 1 0 50%;
+  flex: 1 0 55%;
   border: 0 solid #d5d5d5;
   border-width: 0 0 1px 1px;
 }
@@ -48,6 +48,7 @@
   flex: 1 0 140px;
 }
 .section-lifeYap .conWrap .item .time div {
+  margin-left: 39px;
   padding-top: 1rem;
   padding-bottom: 1.8rem;
   background-color: white;
@@ -69,6 +70,7 @@
   justify-self: flex-end;
   order: 3;
   flex: 1 0 calc(50% - 70px);
+  max-width: 465px;
 }
 .section-lifeYap .conWrap .item .imgWrap .bg {
   width: 100%;
@@ -167,7 +169,7 @@
 }
 .section-lifeYap .conWrap .item02 .imgWrap .front {
   left: auto;
-  right: -65px;
+  right: -62px;
 }
 .section-lifeYap .conWrap .item02 .time {
   order: 2;
@@ -177,6 +179,7 @@
   order: 3;
   padding-left: 2rem;
   padding-right: 0;
+  max-width: 450px;
 }
 .section-lifeYap .conWrap .item02 .greyWrap {
   padding: 1.125rem 1.625rem;
@@ -283,6 +286,9 @@
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: -1px;
+}
+.section-lifeYap .conWrap .item05 .textWrap2 p {
+  max-width: 610px;
 }
 .section-lifeYap .conWrap .item05 .dual {
   margin-top: 3.45rem;

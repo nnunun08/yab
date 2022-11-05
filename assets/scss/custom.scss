@@ -85,6 +85,9 @@ d-pcf {
 .navbar-light .navbar-brand .yap_logo {
     background-image: url(../ico/yap_logo_y.png)
 }
+.nav-item.dropdown .dropdown-menu a {
+    letter-spacing: 0.15px;
+}
 
 .page-visual {
     height: 930px;
@@ -101,8 +104,8 @@ d-pcf {
         font-weight: 600;
         line-height: 1;
         letter-spacing: -0.65px;
-        min-width: 256px;
-        height: 5.2rem;
+        min-width: 272px;
+        height: 82px;
     }
     .container .btn-outline-primary {
         border-color: white;

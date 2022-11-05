@@ -7,7 +7,7 @@
 }
 
 .section-techCon {
-    padding: 12.5rem 0;
+    padding: 120px 0 200px;
     word-break: keep-all;
     .flexWrap {
         display: flex;
@@ -69,6 +69,18 @@
                 i::before {
                     transform: rotate(225deg);
                     margin-top: 4px;
+                }
+                animation: hoverColor 1.5s ease-in;
+            }
+            @keyframes hoverColor {
+                0% {
+                    background-color: #FF862E;
+                }
+                70% {
+                    background-color: #FF862E;
+                }
+                100% {
+                    background-color: #000;
                 }
             }
             i {

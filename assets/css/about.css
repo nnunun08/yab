@@ -47,8 +47,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
-  padding: 26rem 0;
+  height: 930px;
+  box-sizing: border-box;
   animation-duration: 1s;
   animation-delay: 0.5s;
 }
@@ -103,6 +103,7 @@
   border-color: var(--primary);
   top: -9rem;
   transform: none;
+  border-width: 3px;
 }
 
 .section-coreValue h3 {
@@ -365,6 +366,7 @@
   margin-bottom: 8rem;
   text-align: center;
   font-weight: bold;
+  font-size: 40px;
 }
 
 .section-history .hisWrap {
@@ -386,7 +388,7 @@
 .section-history .hisWrap .grey-line {
   width: 1px;
   height: 100%;
-  background-color: #eaeaea;
+  background-color: #ccc;
   position: absolute;
   left: 11.5rem;
   top: 1rem;
@@ -445,6 +447,7 @@
 }
 
 .section-history .hisWrap .hisCon {
+  display: block;
   font-size: 1.313rem;
   font-weight: 500;
   font-stretch: normal;
@@ -453,6 +456,9 @@
   letter-spacing: -0.53px;
   text-align: left;
   color: #222;
+}
+.section-history .hisWrap .hisCon + .hisCon {
+  margin-top: 7px;
 }
 
 .section-history .hisWrap .hisCon .color {
@@ -500,6 +506,9 @@
   padding-top: 16.78rem;
   padding-bottom: 14.68rem;
   overflow-x: hidden;
+}
+.section-supporter h5 b {
+  color: #ff7200 !important;
 }
 
 .section-supporter h3 {

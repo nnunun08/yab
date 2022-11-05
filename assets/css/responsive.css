@@ -10,7 +10,7 @@
     background: url(../img/bg_universeVisual-mo@2x.jpg) 25% 76%/cover no-repeat;
   }
   .section-footer {
-    padding: 2.125rem 0;
+    padding: 32px 0 40px;
     font-size: 0.688rem;
   }
   .section-footer address {
@@ -42,8 +42,11 @@
   .section-footer p,
 .section-footer address {
     font-size: 0.688rem;
-    line-height: 1.45;
+    font-size: 11px;
     letter-spacing: -0.28px;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    line-height: 1.4;
   }
 }
 @media (max-width: 767.99px) {
@@ -86,6 +89,7 @@
     height: 52.75rem;
     height: 33.75rem;
     height: 650px;
+    height: 540px;
   }
   .page-visual h1 {
     font-size: 2rem;
@@ -114,6 +118,9 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+  .section-tech {
+    background: url(../img/bg_techVisual@2x.jpg) left 13% center/cover no-repeat;
   }
   .section-techService {
     padding-top: 3.125rem;
@@ -254,6 +261,7 @@
   }
   .section-footer p .footer-brand {
     font-size: 0.812rem;
+    font-size: 13px;
     color: rgba(255, 255, 255, 0.6) !important;
   }
   .section-gsap01,
@@ -296,7 +304,7 @@
   }
   .section-coreValue h3 {
     margin: 0 auto;
-    margin-bottom: 4.438rem;
+    margin-bottom: 35px;
     font-size: 1.875rem;
     font-weight: bold;
     font-stretch: normal;
@@ -325,6 +333,10 @@
     line-height: 1.28;
     letter-spacing: -0.63px;
     margin-bottom: 1.25rem;
+    word-break: keep-all;
+  }
+  .section-coreValue .row > div:nth-child(1) .item h5 {
+    max-width: 210px;
   }
   .section-coreValue .item p {
     font-size: 0.813rem;
@@ -447,8 +459,8 @@
     margin: 0 auto;
   }
   .section-supporter .textWrap {
-    margin-top: 5rem;
     align-self: flex-start;
+    margin-top: 45px;
   }
   .section-supporter .imgWrap {
     width: 80%;
@@ -599,11 +611,22 @@
     font-size: 1.375rem;
     margin-bottom: 1.23rem;
   }
+  .section-benefit .item ul {
+    padding-left: 16px;
+  }
   .section-benefit .item li {
-    font-size: 0.813rem;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+  }
+  .section-benefit .item li::before {
+    left: -16px;
+    top: 5px;
+    width: 6px;
+    height: 6px;
   }
   .section-together {
     overflow-x: hidden;
+    padding-top: 52px;
   }
   .section-together h5 {
     max-width: 460px;
@@ -664,8 +687,9 @@
   .section-teams .nav .nav-link {
     font-size: 0.938rem;
     width: 50%;
-    min-height: 2.313rem;
     margin: 0;
+    min-height: auto;
+    height: 37px;
     max-width: 160px;
   }
   .section-teams .nav .nav-link:first-child {
@@ -726,7 +750,7 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    left: -9px;
     width: 0.5rem;
     height: 0.5rem;
     transform: translate(-50%, -50%);
@@ -741,6 +765,7 @@
   }
   .section-lifeYap .conWrap .item .time div {
     padding: 0;
+    margin-left: 0;
   }
   .section-lifeYap .conWrap .item .imgWrap {
     order: 0;
@@ -940,10 +965,16 @@
     text-align: left;
   }
   .section-techCon .conWrap > div .btn {
+    font-size: 12px;
+    font-weight: 500;
     margin-top: 2.5rem;
+    height: 38px;
+    padding: 0 16px 0 25px;
   }
-  .section-techCon .conWrap > div .btn:hover {
-    background-color: #000 !important;
+  .section-techCon .conWrap > div .btn i {
+    width: 20px;
+    height: 20px;
+    margin-left: 13px;
   }
   .section-techCon .flexWrap:last-child {
     margin-top: 2.2rem;
@@ -954,6 +985,9 @@
     border-radius: 22px;
     padding: 0 1.6rem 1.82rem;
     margin-bottom: 3.75rem;
+  }
+  .section-techCon .bicon img {
+    max-width: 100px;
   }
   .section-techCon .bicon h4 {
     font-size: 0.688rem;
@@ -1018,18 +1052,21 @@
     padding-right: 5px;
   }
   .section-prList .prCon .item {
-    margin-bottom: 1.844rem;
+    margin-bottom: 34.5px;
   }
   .section-prList .prCon .item h5 {
-    font-size: 1.375rem;
-    letter-spacing: -0.55px;
+    font-size: 18px;
+    line-height: 1.28;
+    letter-spacing: -0.45px;
   }
   .section-prList .prCon .item p {
-    font-size: 0.938rem;
-    letter-spacing: -0.38px;
+    font-size: 11px;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    color: #222;
   }
   .section-prList .prCon .item span {
-    margin-top: 0.938rem;
+    margin-top: 10px;
   }
   .section-prList .prCon .item + .item {
     padding-top: 1.844rem;
@@ -1041,9 +1078,13 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: calc(100% - 3rem);
+    width: calc(100% - 2.3rem);
     height: 1px;
-    background-color: #bdbdbd;
+    background-color: #dbdbdb;
+  }
+  .section-prList .prCon .item .imgWrap {
+    margin-bottom: 10px;
+    padding-top: 71.3%;
   }
   .section-prList .prCon .item .ready {
     border-radius: 32px;
